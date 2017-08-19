@@ -1,16 +1,15 @@
-package net.github.ziyasal.sentiment
-
-import net.github.ziyasal.sentiment.utils.{ResourceUtils, SentimentUtils}
+package net.github.mbcx4jrh.sentiment
 
 import scala.collection.mutable.ListBuffer
 import scala.collection.{Seq, _}
 import scala.util.control.Breaks._
+import utils._
 
 /**
   * An abstraction to represent the sentiment intensity analyzer.
   */
 class SentimentIntensityAnalyzer {
-  val VADER_LEXICON_PATH = "/vader_lexicon.txt"
+  val VADER_LEXICON_PATH = "vader_lexicon.txt"
 
   val ExclIncr: Double = 0.292
   val QuesIncrSmall: Double = 0.18

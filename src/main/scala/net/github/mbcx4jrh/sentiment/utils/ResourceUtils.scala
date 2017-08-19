@@ -1,4 +1,4 @@
-package net.github.ziyasal.sentiment.utils
+package net.github.mbcx4jrh.sentiment.utils
 
 import java.io.InputStream
 

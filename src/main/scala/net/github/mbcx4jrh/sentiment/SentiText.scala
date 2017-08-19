@@ -1,7 +1,7 @@
-package net.github.ziyasal.sentiment
+package net.github.mbcx4jrh.sentiment
 
-import net.github.ziyasal.sentiment.utils.SentimentUtils
 import util.control.Breaks._
+import utils._
 
 private[sentiment] class SentiText(val text: String) {
 

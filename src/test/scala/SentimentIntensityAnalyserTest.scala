@@ -1,5 +1,6 @@
-import org.scalatest.{FlatSpec, Matchers}
-import net.github.ziyasal.sentiment.SentimentIntensityAnalyzer
+import net.github.mbcx4jrh.sentiment.SentimentIntensityAnalyzer
+import org.scalatest.FlatSpec
+import org.scalatest.Matchers
 
 class SentimentIntensityAnalyserTest extends FlatSpec with Matchers {
 
@@ -19,7 +20,6 @@ class SentimentIntensityAnalyserTest extends FlatSpec with Matchers {
     kindOfTest.neutral shouldEqual 0.657
     kindOfTest.positive shouldEqual 0.343
     kindOfTest.compound shouldEqual 0.3832
-
 
     val complexTest = analyzer.polarityScores("The plot was good, but the characters are uncompelling and the dialog is not great.")
     complexTest.negative shouldEqual 0.327
