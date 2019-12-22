@@ -1,4 +1,4 @@
-package net.github.mbcx4jrh.sentiment
+package net.github.sabmit.vader
 
 import scala.collection.mutable.ListBuffer
 import scala.collection.{Seq, _}

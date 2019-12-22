@@ -1,9 +1,9 @@
-package net.github.mbcx4jrh.sentiment
+package net.github.sabmit.vader
 
 import util.control.Breaks._
 import utils._
 
-private[sentiment] class SentiText(val text: String) {
+private[vader] class SentiText(val text: String) {
 
   val wordsAndEmoticons: Seq[String] = getWordsAndEmoticons()
   val isCapDifferential: Boolean = SentimentUtils.allCapDifferential(wordsAndEmoticons)

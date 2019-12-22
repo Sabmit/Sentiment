@@ -1,4 +1,4 @@
-import net.github.mbcx4jrh.sentiment.SentimentIntensityAnalyzer
+import net.github.sabmit.vader.SentimentIntensityAnalyzer
 import org.scalatest.FlatSpec
 import org.scalatest.Matchers
 

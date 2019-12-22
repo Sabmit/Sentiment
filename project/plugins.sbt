@@ -3,6 +3,8 @@ logLevel := Level.Info
 
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.9"
 
+addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.4")
+
 //addSbtPlugin("com.typesafe.sbt" % "sbt-twirl" % "1.3.0")
 
 //addSbtPlugin("com.typesafe.sbt" % "sbt-web" % "1.4.0")
